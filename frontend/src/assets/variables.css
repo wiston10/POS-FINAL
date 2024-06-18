@@ -1,0 +1,27 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Zeyada&display=swap');
+:root {
+    
+    --font-open-sans: 'Red Hat Display', sans-serif;
+}
+/* En tu archivo CSS o SCSS */
+ 
+ 
+h1, h2, h3, h4, p {
+    font-family: var(--font-open-sans);
+  }
+  h1{
+    font-size: 1.2rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  h3{
+    font-size: 0.8rem;
+  }
+ h4{
+    font-size: 0.6rem;
+  }
+  p{
+    font-size: 0.5rem;
+  }
